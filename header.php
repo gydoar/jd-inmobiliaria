@@ -30,7 +30,7 @@
 	<!--/ css indispensables -->
 
 	<!-- css adicionales -->
-
+	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/set1.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-carousel.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url' ); ?>/library/css/owl-theme.css">
 	

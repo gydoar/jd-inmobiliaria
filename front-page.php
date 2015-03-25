@@ -39,9 +39,58 @@
 				</div>
 				<p class="ten columns num">Promocionamos su inmueble a través de nuestra página web, pancartas, afiches, periódicos.</p>
 			</div>
-			
-			
-			
+		</div>
+
+		<div id="casas">
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+
 		</div>
 	</section>
 

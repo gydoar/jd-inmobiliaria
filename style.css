@@ -122,7 +122,9 @@ footer a{
 
 /************** Estilos Adicionales **************/
 
-
+figure{
+    margin: 0;
+}
 
 
 
