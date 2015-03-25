@@ -1,10 +1,21 @@
 
 
-
-
 <footer>
-	<p>HECHO CON&nbsp;<img width="11" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;POR <a target="_blank" href="http://suwwweb.com">SUWWWEB</a></p>
+	<div class="container">
+		<div class="two columns">
+			<ul id="menu-footer">
+				<?php wp_nav_menu(array(
+					'theme_location' => 'footer-menu'
+				) ); ?>
+			</ul>
+		</div>
+	</div>
 </footer>
+
+
+<div id="copy">
+	<p>HECHO CON&nbsp;<img width="11" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;POR <a target="_blank" href="http://suwwweb.com">SUWWWEB</a></p>
+</div>
 
 
 

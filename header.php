@@ -47,7 +47,7 @@
 		<div class="container">
 			<a class="four columns" href="<?php echo home_url('/'); ?>"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 
-			<div class="offset-by-three columns five columns">
+			<div class="offset-by-three five columns">
 				<?php wp_nav_menu(array('theme_location' => 'header-menu') ); ?>
 			</div>
 				

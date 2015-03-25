@@ -113,21 +113,39 @@ p.num{
 #mapa{
     border-top: 2px solid #e22d40;
 }
+
 /* Footer */
+
 footer{
-	text-align: center;
+    background: #2b3173;
+    font-weight: 400;
+    height: 250px;
 }
-footer a{
+#menu-footer ul{
+    float: none;
+}
+#menu-footer ul li{
+    display: block;
+}
+#menu-footer ul li a{
+    color: #ffffff;
+}
+
+/* /Footer */
+
+/* Copy */
+#copy{
+	text-align: center;
+    background: #1c2053;
+}
+#copy a{
 	text-decoration: none;
 	color: #000000;
 }
-/* /Footer */
+/* /Copy */
 
 /************** Estilos Adicionales **************/
 
-figure{
-    margin: 0;
-}
 
 
 
