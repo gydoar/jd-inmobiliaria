@@ -110,6 +110,9 @@ p.num{
    margin-top: 10px;
 }
 
+#mapa{
+    border-top: 2px solid #e22d40;
+}
 /* Footer */
 footer{
 	text-align: center;

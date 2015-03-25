@@ -94,4 +94,8 @@
 		</div>
 	</section>
 
+	<section id="mapa">
+		<iframe width="100%" height="262" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=4.705711,-74.09665&amp;num=1&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll=4.705747,-74.096537&amp;output=embed"></iframe>
+	</section>
+
 <?php get_footer(); ?>
