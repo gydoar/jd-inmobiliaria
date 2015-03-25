@@ -97,6 +97,19 @@ ul li a:hover,ul li a:active,ul li a:focus{
     color: #3b3c8b;
 }
 
+.icon-uno:before{
+    content: url(library/img/icon-uno.png);
+    margin-right: 10px;
+
+}
+.icon-uno:before, p.icon-uno{
+    vertical-align: top;
+}
+p.num{
+   line-height: 16px;
+   margin-top: 10px;
+}
+
 /* Footer */
 footer{
 	text-align: center;

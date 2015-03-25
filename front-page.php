@@ -18,6 +18,31 @@
 			<h2>GARANTIA</h2>
 			<p><strong>JDAVID BELTRAN INMOBILIARIA SAS</strong> dentro de su seriedad y responsabilidad social garantiza.</p>
 		</div>
+
+		<div class="row">
+			
+			<div class="four columns">
+				<div class="two columns">
+					<img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-uno.png" alt="">
+				</div>
+				<p class="ten columns num">El pago anticipado del canon de arrendamiento de su inmueble una vez haya sido  arrendado.</p>
+			</div>
+			<div class="four columns">
+				<div class="two columns">
+					<img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-dos.png" alt="">
+				</div>
+				<p class="ten columns num">El inmueble se recibe totalmente inventariado.</p>
+			</div>
+			<div class="four columns">
+				<div class="two columns">
+					<img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tres.png" alt="">
+				</div>
+				<p class="ten columns num">Promocionamos su inmueble a través de nuestra página web, pancartas, afiches, periódicos.</p>
+			</div>
+			
+			
+			
+		</div>
 	</section>
 
 <?php get_footer(); ?>
