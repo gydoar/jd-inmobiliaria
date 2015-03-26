@@ -51,6 +51,13 @@
 
 <!-- Menu responsive -->
 
+<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.js"></script>
+
+<script>
+jQuery(document).ready(function () {
+    jQuery('header nav').meanmenu();
+});
+</script>
 
 <!--/ Menu responsive -->
 
