@@ -17,9 +17,9 @@
 				<p class="icon-movil">&nbsp;&nbsp;315 799 5783</p>
 			</div>
 			<div class="two columns offset-by-one" id="social">
-				<a href="#"><img width="32" src="<?php bloginfo('template_url' ); ?>/library/img/icon-fb.png" alt="">FACEBOOK</a>
-				<a href="#"><img width="33" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tw.png" alt="">TWITTER</a>
-				<a href="#"><img width="33" src="<?php bloginfo('template_url' ); ?>/library/img/icon-ist.png" alt="">INSTAGRAM</a>
+				<a href="#"><img width="28" src="<?php bloginfo('template_url' ); ?>/library/img/icon-fb.png" alt="">&nbsp;&nbsp;FACEBOOK</a><br>
+				<a href="#"><img width="27" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tw.png" alt="">&nbsp;&nbsp;TWITTER</a><br>
+				<a href="#"><img width="27" src="<?php bloginfo('template_url' ); ?>/library/img/icon-ist.png" alt="">&nbsp;&nbsp;INSTAGRAM</a>
 			</div>
 		</div>
 	</div>
@@ -27,7 +27,7 @@
 
 
 <div id="copy">
-	<p>HECHO CON&nbsp;<img width="11" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;POR <a target="_blank" href="http://suwwweb.com">SUWWWEB</a></p>
+	<p><strong>&copy; JDAVIDBELTRANINMOBILIARIA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>HECHO CON&nbsp;<img width="11" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;POR <a target="_blank" href="http://suwwweb.com">SUWWWEB</a></p>
 </div>
 
 
