@@ -113,16 +113,43 @@ p.num{
 #mapa{
     border-top: 2px solid #e22d40;
 }
-
+.icon-map:before{
+    content: url(library/img/icon-map.png);
+}
+.icon-mail:before{
+    content: url(library/img/icon-mail.png);
+}
+.icon-fax:before{
+    content: url(library/img/icon-fax.png);
+}
+.icon-movil:before{
+    content: url(library/img/icon-movil.png);
+}
+.icon-map:before,.icon-mail:before,.icon-fax:before,.icon-movil:before{
+    vertical-align: middle;
+    text-align: center;
+    background-position: center;
+    display: inline-block;
+}
 /* Footer */
 
 footer{
     background: #2b3173;
     font-weight: 400;
-    height: 250px;
+    color: #ffffff;
+    padding: 20px 0px;
 }
-#menu-footer ul{
+footer p, footer a{
+    margin: 0px 0px 10px 0px;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul#menu-footer {
     float: none;
+    padding-top: 0px;
+    margin: 0px;
 }
 #menu-footer ul li{
     display: block;
@@ -137,6 +164,7 @@ footer{
 #copy{
 	text-align: center;
     background: #1c2053;
+    color: #ffffff;
 }
 #copy a{
 	text-decoration: none;

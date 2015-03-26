@@ -2,12 +2,25 @@
 
 <footer>
 	<div class="container">
-		<div class="two columns">
-			<ul id="menu-footer">
-				<?php wp_nav_menu(array(
-					'theme_location' => 'footer-menu'
-				) ); ?>
-			</ul>
+		<div class="row">
+			<div class="one columns offset-by-one">
+				<ul id="menu-footer">
+					<?php wp_nav_menu(array(
+						'theme_location' => 'footer-menu'
+					) ); ?>
+				</ul>
+			</div>
+			<div class="five columns offset-by-two">
+				<p class="icon-map">&nbsp;&nbsp;Cra 6 No. 12C - 48 Antonio Nariño Ofi 510</p>
+				<a class="icon-mail" href="mailto:jdavidbeltraninmobiliria.com">&nbsp;&nbsp;jdavidbeltraninmobiliria.com</a>
+				<p class="icon-fax">&nbsp;&nbsp;2813040 Fax: 2812902</p>
+				<p class="icon-movil">&nbsp;&nbsp;315 799 5783</p>
+			</div>
+			<div class="two columns offset-by-one" id="social">
+				<a href="#"><img width="32" src="<?php bloginfo('template_url' ); ?>/library/img/icon-fb.png" alt="">FACEBOOK</a>
+				<a href="#"><img width="33" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tw.png" alt="">TWITTER</a>
+				<a href="#"><img width="33" src="<?php bloginfo('template_url' ); ?>/library/img/icon-ist.png" alt="">INSTAGRAM</a>
+			</div>
 		</div>
 	</div>
 </footer>
