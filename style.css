@@ -220,7 +220,7 @@ ul#menu-footer {
     max-width: 100%;
     height: auto;
 }
-#page li{
+#page li, #page--ext li{
      list-style: square url(library/img/icon-list.png);
 }
 #page--ext{

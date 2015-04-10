@@ -22,12 +22,12 @@
 
 						<p>No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos quedando esencialmente igual.</p>
 
-						<ul class="list__arri">
+						
 							<li>No sólo sobrevivió 500 años, sino que tambien.</li>
 							<li>No sólo sobrevivió 500 años, sino que tambien.</li>
 							<li>No sólo sobrevivió 500 años, sino que tambien.</li>
 
-						</ul>
+						<br>
 					</div>
 					<div class="row center">
 						<a class="btn--red" href="#">Ver Propiedades</a>
@@ -44,7 +44,7 @@
 
 					</div>
 					<div class="row center">
-						<a class="btn--red" href="#">Más Información</a>
+						<a class="btn--red" href="<?php echo home_url('/servicios/administracion-de-inmuebles' ); ?>">Más Información</a>
 					</div>
 					<br><br>
 				<!--sector 2 -->
@@ -54,7 +54,7 @@
 
 					</div>
 					<div class="row center">
-						<a class="btn--red" href="#">Más Información</a>
+						<a class="btn--red" href="<?php echo home_url('/servicios/avaluos' ); ?>">Más Información</a>
 					</div>
 
 				<br><br><br>
@@ -65,7 +65,7 @@
 					<br>
 					</div>
 					<div class="row center">
-						<a class="btn--red" href="#">Más Información</a>
+						<a class="btn--red" href="<?php echo home_url('/servicios/mantenimiento-y-remodelacion' ); ?>">Más Información</a>
 					</div>
 			</div>
 		</div>
