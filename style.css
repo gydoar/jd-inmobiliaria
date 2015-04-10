@@ -170,6 +170,22 @@ ul#menu-footer {
     color: #ffffff;
 }
 
+#page{
+    padding: 30px 0px;
+    line-height: 18px;
+    color: #727277;
+}
+#page h2{
+    border-bottom: 2px solid #e22d40;
+    max-width: 35%; 
+    font-size: 28px;
+    color: #2b3173;
+    font-weight: 400;
+}
+#page img{
+    max-width: 100%;
+    height: auto;
+}
 /* /Footer */
 
 /* Copy */
