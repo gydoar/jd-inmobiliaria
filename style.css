@@ -221,7 +221,9 @@ ul#menu-footer {
 ul.list__arri{
     padding-top: 0px;
 }
-
+.form-group input[type="text"],.form-group textarea{
+    width: 100%;
+}
 /* /Footer */
 
 /* Copy */
