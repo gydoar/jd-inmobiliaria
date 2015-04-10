@@ -2,7 +2,7 @@
 
 	<article class="container" id="page">
 
-		<div class="ten columns offset-by-one">
+		<div>
 		
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

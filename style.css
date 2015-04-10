@@ -9,6 +9,7 @@ header{
 ul{
     float: right;
     padding-top: 20px;
+
 }
 ul li{
     display: inline-block;
@@ -17,12 +18,45 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #3b3c8b;
-    font-weight: 600;
+    font-weight: 600;    
 }
 ul li a:hover,ul li a:active,ul li a:focus{
     color:#e22d40;
 }
+ 
+ul li ul{
+    display:none;
+    position:absolute;
+    min-width:140px;
 
+    margin-top: 0px;
+    margin-left: 0px;
+}
+ul li:hover > ul{
+    display:block;
+}
+ul li ul li {
+    position:relative;
+    background: #e22d40;
+    margin-bottom: 3px;
+    width: 150px;
+    height: 40px;
+    line-height: 12px;
+
+}
+ul li ul li a{
+    color: #ffffff;
+    padding: 10px;
+    font-weight: normal;
+    float: left;
+}
+ul li ul li:hover{
+    background: #3b3c8b;
+}
+ul li ul li ul{
+    right:-140px;
+    top:0px;
+}
 #banner{
     background: url(library/img/banner.jpg) no-repeat;
     min-height: 667px;
@@ -169,7 +203,6 @@ ul#menu-footer {
 #menu-footer ul li a{
     color: #ffffff;
 }
-
 #page, #page--ext{
     padding: 30px 0px;
     line-height: 18px;
@@ -178,7 +211,7 @@ ul#menu-footer {
 }
 #page h2, #page--ext h2{
     border-bottom: 2px solid #e22d40;
-    max-width: 35%; 
+    max-width: 60%; 
     font-size: 28px;
     color: #2b3173;
     font-weight: 400;
@@ -186,6 +219,9 @@ ul#menu-footer {
 #page img, #page--ext img{
     max-width: 100%;
     height: auto;
+}
+#page li{
+     list-style: square url(library/img/icon-list.png);
 }
 #page--ext{
     text-align: justify;
