@@ -116,7 +116,7 @@
 	                        </div>
 							 <div class="form-group">
 								<label for="">Mensaje
-									<textarea class="form-control" name="comments" id="commentsText" rows="100" cols="10" placeholder="Mensaje"></textarea>
+									<textarea class="form-control" name="comments" id="commentsText" rows="100" cols="10"></textarea>
 								</label>
 	                            
 	                            <?php if(isset($commentError)) { ?>
