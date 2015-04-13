@@ -13,7 +13,6 @@ register_nav_menus(
 	);
 
 
-
 /***
 // Habilitar soporte Custom posts
 ***/
@@ -86,41 +85,59 @@ add_action('init', 'register_portfoliotaxonomies');
 /* Metabox */
 $meta_box = array(
  'id' => 'metabox-portfolio',
- 'title' => 'Elementos del Portfolio',
+ 'title' => 'Información general de inmuebles',
  'page' => 'portfolio',
  'context' => 'normal',
  'priority' => 'high',
  'fields' => array(
  array(
- 'name' => 'Cliente',
- 'desc' => 'Nombre del cliente',
- 'id' => 'cliente',
- 'type' => 'text',
- 'std' => 'Un Cliente'
+ 'name' => 'Tipo de inmueble:',
+ 'desc' => 'Casa, Apto ...',
+ 'id' => 'tipo_inm',
+ 'type' => 'text'
  ),
  array(
- 'name' => 'Socios',
- 'desc' => 'Nombre del/los socios',
- 'id' => 'socios',
+ 'name' => 'Ubicación:',
+ 'desc' => 'Ubicación del inmueble',
+ 'id' => 'ubi_inm',
  'type' => 'text',
  'std' => ''
  ),
  array(
- 'name' => 'Descripcion',
- 'desc' => 'Descripcion corta para la portada',
- 'id' => 'descripcion',
+ 'name' => 'Valor Venta:',
+ 'desc' => 'Valor del inmueble',
+ 'id' => 'vlr_inm',
+ 'type' => 'text',
+ 'std' => '$'
+ ),
+ array(
+ 'name' => 'Área:',
+ 'desc' => 'Área en mt2',
+ 'id' => 'area_inm',
+ 'type' => 'text',
+ 'std' => ''
+ ),
+ array(
+ 'name' => 'Habitaciones:',
+ 'desc' => 'Numero de habitaciones',
+ 'id' => 'habita_inm',
+ 'type' => 'text',
+ 'std' => ''
+ ),
+ array(
+ 'name' => 'Baños:',
+ 'desc' => 'Numero de baños',
+ 'id' => 'bano_inm',
+ 'type' => 'text',
+ 'std' => ''
+ ),
+  array(
+ 'name' => 'Descripción:',
+ 'desc' => 'Agregue una descripción corta',
+ 'id' => 'descrip_inm',
  'type' => 'textarea',
  'std' => ''
  ),
- array(
- 'name' => 'Layout',
- 'id' => 'layout',
- 'type' => 'radio',
- 'options' => array(
- array('name' => 'Layout1', 'value' => 'Layout1'),
- array('name' => 'Layout2', 'value' => 'Layout2')
- )
- )
  )
 );
 add_action('admin_menu', 'mytheme_add_box');
