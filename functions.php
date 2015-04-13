@@ -12,6 +12,12 @@ register_nav_menus(
 		)
 	);
 
+/***
+// Soporte Thumhnails
+***/
+
+add_theme_support('post-thumbnails' );
+add_image_size('img_inm', 351, 348, true );
 
 /***
 // Habilitar soporte Custom posts
@@ -155,6 +161,9 @@ function mytheme_show_box() {
 foreach ($meta_box['fields'] as $field) {
  // get current post meta data
  $meta = get_post_meta($post->ID, $field['id'], true);
+ 
+ ///////////////////////////
+
  echo '<tr>',
  '<th style="width:20%"><label for="', $field['id'], '">', $field['name'], '</label></th>',
  '<td>';
