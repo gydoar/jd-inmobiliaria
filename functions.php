@@ -104,7 +104,7 @@ $meta_box = array(
  ),
  array(
  'name' => 'Ubicación:',
- 'desc' => 'Ubicación del inmueble',
+ 'desc' => 'Localidad o barrio',
  'id' => 'ubi_inm',
  'type' => 'text',
  'std' => ''

@@ -20,8 +20,8 @@
 			 <div class="container" >
 			 	
 			 	<div id="single__inm">
-			 		<h3><?php the_title(); ?></h3>
-			 	</div>
+			 		<h3><?php the_title(); ?> - id <?php the_id(); ?></h3>
+			 	
 			 	<div class="row">
 			 		<div class="five columns offset-by-one">
 			 			<?php if (has_post_thumbnail()) {the_post_thumbnail('post-thumbnails', 351, 348, true);} ?>
@@ -42,13 +42,23 @@
 			 					<li><?php echo $tipoinmueble; ?></li>
 			 					<li><?php echo $ubicacion; ?></li>
 			 					<li><?php echo $valor; ?></li>
-			 					<li><?php echo $area; ?></li>
+			 					<li><?php echo $area; ?> mt2</li>
 			 					<li><?php echo $habitaciones; ?></li>
 			 					<li><?php echo $banos; ?></li>
 			 				</div>
 			 			</div>
 			 			<p class="des__inm"><?php echo $descripcion; ?></p>
 			 		</div>
+			 	</div>
+
+			 	<div class="row contact__inm">
+			 		<div class="five columns offset-by-one">
+			 			<h5><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-contac.png" alt=""> Contacte al vendedor</h5>
+			 		</div>
+			 		<div class="six columns">
+			 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores porro molestiae ducimus dicta ut voluptatibus officiis consequatur suscipit adipisci assumenda, voluptates temporibus voluptate exercitationem veniam saepe in laboriosam expedita mollitia.
+			 		</div>
+			 	</div>
 			 	</div>
 			</div>
 
