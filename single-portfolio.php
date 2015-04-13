@@ -47,7 +47,7 @@
 			 					<li><?php echo $banos; ?></li>
 			 				</div>
 			 			</div>
-			 			
+			 			<p class="des__inm"><?php echo $descripcion; ?></p>
 			 		</div>
 			 	</div>
 			</div>

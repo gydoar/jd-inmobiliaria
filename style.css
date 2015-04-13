@@ -168,6 +168,9 @@ p.num{
     background-position: center;
     display: inline-block;
 }
+#single__inm{
+    color: #727277;
+}
  #single__inm h3{
     text-decoration: underline;
      text-decoration-color: red;
@@ -188,9 +191,16 @@ p.num{
  }
  .info__inm li{
     list-style: none;
+    border-bottom: 1px dashed #e1e2e4;
  }
  .info__inm_1 li{
     list-style: square url(library/img/icon-list.png);
+    border-bottom: 1px dashed #e1e2e4;
+ }
+ p.des__inm{
+    line-height: 18px;
+    text-align: justify;
+    padding-top: 20px;
  }
  img{
     max-width: 100%;
@@ -332,4 +342,9 @@ ul.list__arri{
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 	
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+        .info__inm, .info__inm_1{
+            display: inline-block !important;
+            vertical-align: top !important;
+        }
+    }
