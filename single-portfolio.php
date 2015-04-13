@@ -27,7 +27,27 @@
 			 			<?php if (has_post_thumbnail()) {the_post_thumbnail('post-thumbnails', 351, 348, true);} ?>
 			 		</div>
 			 		<div class="six columns">
-			 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quaerat incidunt culpa fuga. Consectetur veritatis reiciendis nisi neque, iure nobis tenetur, quaerat possimus. Iste veniam quae, molestiae, perferendis sed sunt.
+			 			<h4 class="center fondo--red">Infomación General</h4>
+			 			<div class="row">
+			 				<div class="six columns info__inm_1">
+			 					<li><strong>Tipo de inmueble:</strong></li>
+								<li><strong>Ubicación:</strong></li>
+								<li><strong>Valor de venta:</strong></li>
+								<li><strong>Área:</strong></li>
+								<li><strong>Habitaciones:</strong></li>
+								<li><strong>Baños:</strong></li>
+			 				</div>
+
+			 				<div class="six columns info__inm">
+			 					<li><?php echo $tipoinmueble; ?></li>
+			 					<li><?php echo $ubicacion; ?></li>
+			 					<li><?php echo $valor; ?></li>
+			 					<li><?php echo $area; ?></li>
+			 					<li><?php echo $habitaciones; ?></li>
+			 					<li><?php echo $banos; ?></li>
+			 				</div>
+			 			</div>
+			 			
 			 		</div>
 			 	</div>
 			</div>

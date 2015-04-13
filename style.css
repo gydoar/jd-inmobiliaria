@@ -177,6 +177,21 @@ p.num{
     color: #2b3173;
     font-weight: 400;
  }
+ .fondo--red{
+    padding: 3px 0px;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: .5px;
+    max-width: 100%;
+    background-color: #e22d40;
+    border-radius: 10px 0px 10px 0px;
+ }
+ .info__inm li{
+    list-style: none;
+ }
+ .info__inm_1 li{
+    list-style: square url(library/img/icon-list.png);
+ }
  img{
     max-width: 100%;
     height: auto;
