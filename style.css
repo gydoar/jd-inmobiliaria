@@ -205,8 +205,15 @@ p.num{
  }
 .contact__inm{
     border-top: 1px dashed #e1e2e4;
-    padding: 20px 0px;
+    padding-top: 20px;
  }
+ .contact__inm li{
+    list-style: none;
+ }
+  .contact__inm li img{
+    display: inline-block;
+    vertical-align: middle;
+  }
  .contact__inm h5{
     font-size: 20px;
  }

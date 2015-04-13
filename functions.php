@@ -144,8 +144,30 @@ $meta_box = array(
  'type' => 'textarea',
  'std' => ''
  ),
+ array(
+ 'name' => 'Teléfono fijo:',
+ 'desc' => 'Agregue un número de teléfono',
+ 'id' => 'tel_inm',
+ 'type' => 'text',
+ 'std' => '281 3041'
+ ),
+  array(
+ 'name' => 'Teléfono móvil:',
+ 'desc' => 'Agregue un tel móvil',
+ 'id' => 'mov_inm',
+ 'type' => 'text',
+ 'std' => '321 349 4087'
+ ),
+ array(
+ 'name' => 'Dirección:',
+ 'desc' => 'Dirección de contacto',
+ 'id' => 'dir_inm',
+ 'type' => 'text',
+ 'std' => 'Cr 6 No. 12C - 48 Ed. Antonio Nariño Oficina 510'
+ ),
  )
 );
+
 add_action('admin_menu', 'mytheme_add_box');
 // Add meta box
 function mytheme_add_box() {
