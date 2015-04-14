@@ -42,7 +42,6 @@
         if (!isset($emailTo) || ($emailTo == '') ){
             $emailTo = get_option('admin_email');
         }
-        $title = the_title();
         $subject = '[Contacto axemos] From '.$name;
         $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments \n\nInmueble: $title";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
@@ -80,7 +79,7 @@
 			 	
 			 	<div id="single__inm">
 			 		<h3><?php the_title(); ?> - id <?php the_id(); ?></h3>
-			 	
+			 	    <?php $title = the_title('', '', false); ?>
 			 	<div class="row">
 			 		<div class="five columns offset-by-one">
 			 			<?php if (has_post_thumbnail()) {the_post_thumbnail('post-thumbnails', 351, 348, true);} ?>
