@@ -221,14 +221,16 @@ p.num{
     display: inline-block;
     vertical-align: middle;
  }
- ul.fondo--red{
+ .fondo--red ul{
     max-width: 100%;
     width: 100%;
     font-size: 18px;
     margin-left: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
  }
-  ul.fondo--red li{
-   margin-left: 60px;
+.fondo--red   ul li{
+    margin-bottom: 0px;
   }
  .tax__inm{
     border-bottom: 1px solid #e22d40;
@@ -238,12 +240,32 @@ p.num{
     border-bottom: 1px solid #e1e2e4;
     width: 100%;
     text-align: left;
+    padding-top: 0px;
+    margin-bottom: 0px;
  }
  ul.des_tax li{
-    float: center;
-    margin-left: 60px;
-    font-size: 18px;
+    text-align: center;
 
+    font-size: 16px;
+
+ }
+ .btn__tax{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e22d40;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-align: center;
+ }
+  .btn__tax:hover{
+    background-color: rgba(213,45,55,0.8);
+    color: #ffffff;
+  }
+ a.btn__tax{
+    margin-top: 20px;
+ }
+ .justify{
+    text-align: justify;
  }
  img{
     max-width: 100%;

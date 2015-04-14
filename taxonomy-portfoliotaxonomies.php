@@ -5,13 +5,15 @@
 		<div>
 
 			<h3>Ventas y Arriendos</h3>
-
-			<ul class="center fondo--red">
-				<li>Inmueble</li>
-				<li>Ubicación</li>
-				<li>V. Venta</li>
-				<li>Área</li>
-			</ul>
+			<div class="center fondo--red eleven columns offset-by-one">
+				<ul class="eleven columns offset-by-two">
+					<li class="three columns">Inmueble</li>
+					<li class="two columns">Ubicación</li>
+					<li class="three columns">&nbsp;&nbsp;&nbsp;&nbsp;V. Venta</li>
+					<li class="three columns">Área</li>
+				</ul>
+			</div>
+				
 		
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -32,19 +34,21 @@
 				 ?>	
 					
 
-				<div class="tax__inm">
+				<div class="tax__inm offset-by-one eleven columns">
 					<div class="two columns">
 						<?php the_post_thumbnail('img_item_inm' ); ?>
 					</div>
 					<div class="ten columns">
 						<ul class="des_tax">
-							<li><?php echo $tipoinmueble; ?></li>
-							<li><?php echo $ubicacion; ?></li>
-							<li><?php echo $valor; ?></li>
-							<li><?php echo $area; ?></li>
+							<li class="three columns"><?php echo $tipoinmueble; ?></li>
+							<li class="three columns"><?php echo $ubicacion; ?></li>
+							<li class="three columns"><?php echo $valor; ?></li>
+							<li class="three columns"><?php echo $area; ?></li>
 						</ul>
-					<p><?php echo $descripcion; ?></p>
+					
 					</div>
+					<p class="eight columns justify"><?php echo $descripcion; ?></p>
+					<a class="two columns btn__tax" href="<?php the_permalink(); ?>">Ver más</a>
 				</div>
 
 
