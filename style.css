@@ -267,6 +267,15 @@ p.num{
  .justify{
     text-align: justify;
  }
+ #casas{
+    text-align: center;
+ }
+ #casas h3{
+    color: #3b3c8b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+ }
  img{
     max-width: 100%;
     height: auto;

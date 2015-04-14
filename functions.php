@@ -19,7 +19,7 @@ register_nav_menus(
 add_theme_support('post-thumbnails' );
 add_image_size('img_inm', 351, 348, true );
 add_image_size('img_item_inm', 190, 191, true );
-add_image_size('front-page', 240, 195, true );
+add_image_size('front-page', 260, 256, true );
 
 /***
 // Mostrar custon post type en el loop
