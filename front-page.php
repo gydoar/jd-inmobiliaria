@@ -4,6 +4,7 @@
 			<div id="copi">
 				<p>"ADMINISTRAMOS <strong>SU INMUEBLE</strong><br>CON SEGURIDAD PARA QUE <br><strong>VIVA CON TRAQUILIDAD"</strong></p>
 			</div>
+			<!-- 
 			<div id="form">
 				<label for=""></label>
 				 <input type="radio" name="inmueble" value="venta" /> Venta<br />
@@ -11,6 +12,7 @@
 	             <input type="radio" name="inmueble" value="todos" /> Todos<br />
 	             <input type="submit" value="Buscar" />
 			</div>
+			-->
 	</section>
 
 	<section class="container" id="body">
