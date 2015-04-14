@@ -1,6 +1,5 @@
  <?php
 
-    $title = the_title()  the_id();
 
    if(isset($_POST['submitted'])) {
     if(trim($_POST['contactName']) === '') {
@@ -44,7 +43,7 @@
             $emailTo = get_option('admin_email');
         }
         $subject = '[Contacto axemos] From '.$name;
-        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments \n\nInmueble: $title";
+        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments \n\nInmueble: the_title();";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
         wp_mail($emailTo, $subject, $body, $headers);
