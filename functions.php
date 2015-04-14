@@ -18,6 +18,7 @@ register_nav_menus(
 
 add_theme_support('post-thumbnails' );
 add_image_size('img_inm', 351, 348, true );
+add_image_size('img_item_inm', 180, 181, true );
 
 /***
 // Habilitar soporte Custom posts

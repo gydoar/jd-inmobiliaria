@@ -221,6 +221,30 @@ p.num{
     display: inline-block;
     vertical-align: middle;
  }
+ ul.fondo--red{
+    max-width: 100%;
+    width: 100%;
+    font-size: 18px;
+    margin-left: 20px;
+ }
+  ul.fondo--red li{
+   margin-left: 60px;
+  }
+ .tax__inm{
+    border-bottom: 1px solid #e22d40;
+    padding: 10px 0px;
+ }
+ ul.des_tax{
+    border-bottom: 1px solid #e1e2e4;
+    width: 100%;
+    text-align: left;
+ }
+ ul.des_tax li{
+    float: center;
+    margin-left: 60px;
+    font-size: 18px;
+
+ }
  img{
     max-width: 100%;
     height: auto;
