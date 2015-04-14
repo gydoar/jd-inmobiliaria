@@ -19,6 +19,39 @@
 			<p><strong>JDAVID BELTRAN INMOBILIARIA SAS</strong> dentro de su seriedad y responsabilidad social garantiza.</p>
 		</div>
 
+		<div>
+				
+				<?php global $wp_query;
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&p=89");
+				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+				<?php 
+
+					$tipoinmueble = get_post_meta(get_the_id(), 'tipo_inm', TRUE);
+					$ubicacion    = get_post_meta(get_the_id(), 'ubi_inm', TRUE);
+					$valor        = get_post_meta(get_the_id(), 'vlr_inm', TRUE);
+					$area         = get_post_meta(get_the_id(), 'area_inm', TRUE);
+					$habitaciones = get_post_meta(get_the_id(), 'habita_inm', TRUE);
+					$banos        = get_post_meta(get_the_id(), 'bano_inm', TRUE);
+					$descripcion  = get_post_meta(get_the_id(), 'descrip_inm', TRUE);
+
+					$tel_fijo     = get_post_meta(get_the_id(), 'tel_inm', TRUE);
+					$tel_movil    = get_post_meta(get_the_id(), 'mov_inm', TRUE);
+					$direccion    = get_post_meta(get_the_id(), 'dir_inm', TRUE);
+				
+				 ?>	
+
+				<?php the_title() ?><br>
+				<?php echo $valor; ?><br>
+				<?php echo $banos; ?><br>
+				<?php echo $habitaciones; ?>
+
+				 
+				<?php endwhile; ?>
+
+
+		</div>
+
 		<div class="row">
 			
 			<div class="four columns">
@@ -38,6 +71,82 @@
 					<img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tres.png" alt="">
 				</div>
 				<p class="ten columns num">Promocionamos su inmueble a través de nuestra página web, pancartas, afiches, periódicos.</p>
+			</div>
+		</div>
+
+		<div id="casas">
+			<?php global $wp_query;
+				$wp_query = new WP_Query("post_type=portfolio&post_status=publish&p=89");
+				while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+				<?php 
+
+					$tipoinmueble = get_post_meta(get_the_id(), 'tipo_inm', TRUE);
+					$ubicacion    = get_post_meta(get_the_id(), 'ubi_inm', TRUE);
+					$valor        = get_post_meta(get_the_id(), 'vlr_inm', TRUE);
+					$area         = get_post_meta(get_the_id(), 'area_inm', TRUE);
+					$habitaciones = get_post_meta(get_the_id(), 'habita_inm', TRUE);
+					$banos        = get_post_meta(get_the_id(), 'bano_inm', TRUE);
+					$descripcion  = get_post_meta(get_the_id(), 'descrip_inm', TRUE);
+
+					$tel_fijo     = get_post_meta(get_the_id(), 'tel_inm', TRUE);
+					$tel_movil    = get_post_meta(get_the_id(), 'mov_inm', TRUE);
+					$direccion    = get_post_meta(get_the_id(), 'dir_inm', TRUE);
+				
+				 ?>	
+
+				<div class="three columns">
+					<div class="grid">
+						<figure class="effect-sarah">
+								<img src="<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('font-page' ); ?></a>" alt="img13"/>
+								<figcaption>
+									<h2><?php echo $tipoinmueble; ?></h2>
+									<p>Sarah likes to watch clouds. She's quite depressed.</p>
+									<a href="<?php the_permalink(); ?>">View more</a>
+								</figcaption>			
+						</figure>
+					</div>
+				</div>
+
+				 
+				<?php endwhile; ?>
+			
+
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
+			</div>
+			<div class="three columns">
+				<div class="grid">
+					<figure class="effect-sarah">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/13.jpg" alt="img13"/>
+							<figcaption>
+								<h2>Free <span>Sarah</span></h2>
+								<p>Sarah likes to watch clouds. She's quite depressed.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+					</figure>
+				</div>
 			</div>
 		</div>
 
@@ -90,8 +199,12 @@
 					</figure>
 				</div>
 			</div>
+			
 
 		</div>
+
+
+		
 	</section>
 
 	<section id="mapa">

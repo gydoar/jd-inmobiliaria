@@ -37,6 +37,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
+<script src="<?php bloginfo('template_url' ); ?>/library/js/toucheffects.js"></script>
 
 <!--/ script -->
 

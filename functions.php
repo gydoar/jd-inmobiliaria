@@ -19,6 +19,20 @@ register_nav_menus(
 add_theme_support('post-thumbnails' );
 add_image_size('img_inm', 351, 348, true );
 add_image_size('img_item_inm', 190, 191, true );
+add_image_size('front-page', 240, 195, true );
+
+/***
+// Mostrar custon post type en el loop
+***/
+add_filter( 'pre_get_posts', 'my_get_posts' );
+
+function my_get_posts( $query ) {
+
+    if ( is_home() && $query->is_main_query() )
+        $query->set( 'post_type', array( 'portfolio' ) );
+
+    return $query;
+}
 
 /***
 // Habilitar soporte Custom posts
