@@ -79,7 +79,7 @@
 			 	
 			 	<div id="single__inm">
 			 		<h3><?php the_title(); ?> - id <?php the_id(); ?></h3>
-			 	    <?php $title = the_title('', '', false); ?>
+			 	    <?php $title = get_the_title(); ?>
 			 	<div class="row">
 			 		<div class="five columns offset-by-one">
 			 			<?php if (has_post_thumbnail()) {the_post_thumbnail('post-thumbnails', 351, 348, true);} ?>
