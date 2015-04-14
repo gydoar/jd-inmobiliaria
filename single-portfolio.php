@@ -42,8 +42,9 @@
         if (!isset($emailTo) || ($emailTo == '') ){
             $emailTo = get_option('admin_email');
         }
+        $title = the_title();
         $subject = '[Contacto axemos] From '.$name;
-        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments \n\nInmueble: the_title();";
+        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments \n\nInmueble: $title";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
         wp_mail($emailTo, $subject, $body, $headers);
