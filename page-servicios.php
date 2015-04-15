@@ -12,7 +12,7 @@
 					</div>
 					<div class="row center">
 						<br>
-						<a class="btn--red" href="#">Ver Propiedades</a>
+						<a class="btn--red" href="<?php echo home_url('/porfoliotax/venta' ); ?>">Ver Propiedades</a>
 					</div>
 					<br><br>
 					<!-- Sector 2 -->
@@ -30,7 +30,7 @@
 						<br>
 					</div>
 					<div class="row center">
-						<a class="btn--red" href="#">Ver Propiedades</a>
+						<a class="btn--red" href="<?php echo home_url('/porfoliotax/arriendo' ); ?>">Ver Propiedades</a>
 					</div>
 					
 			</div>
